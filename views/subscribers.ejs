@@ -1,0 +1,22 @@
+<div class="list-container">
+  <% subscribers.forEach(s => { %>
+  <div class="registration">
+    <p>
+      <span class="item-label">Name:</span>
+      <%= s.name %>
+    </p>
+    <p>
+      <span class="item-label">Email:</span>
+      <%= s.email %>
+    </p>
+    <p>
+      <span class="item-label">Child Age:</span>
+      <%= s.childAge %>
+    </p>
+    <p>
+      <span class="item-label">Phone Number:</span>
+      <%= s.phoneNumber %>
+    </p>
+  </div>
+  <% }); %>
+</div>
